@@ -18,6 +18,7 @@
 Şu anda Server'da saat: <% = Time %>.<p>
 Response.write(Date)
 </h3>
+
 </SCRIPT>.
 
 </H3>
