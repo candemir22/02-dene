@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html>
-<body>
+	
+<HTML>
 
-<h1>The button Element</h1>
+<HEAD>
+<TITLE>VBScript ile Tarih</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+</HEAD>
 
-<button type="button" onclick="alert('Hello world!')">Click Me!</button>
- 
-</body>
-</html>
+<BODY BGCOLOR=red>
+<H1>Merhaba Dünya</H1>
+<H2>Bugün:</H2>
+<H3>
+
+<SCRIPT LANGUAGE=VBScript RUNAT=SERVER>
+
+<h3>Bugün hersy yolundami <% =WeekdayName(Weekday(Date)) %>, <% = Date %>
+
+Şu anda Server'da saat: <% = Time %>.<p>
+Response.write(Date)
+</h3>
+</SCRIPT>.
+
+</H3>
+</BODY>
+</HTML>
